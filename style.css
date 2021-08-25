@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+
+header{
+    
+    text-align: center;
+    padding:25px;
+}
+header h1{
+    font-size: 35px;
+    
+    border-radius: 50px;
+    padding: 15px;
+}
+header h1 i{
+    color: darkorange;
+}
+header h1  span{
+    color: darkorange;
+}
+
+.add-book{
+    padding-top: 10px;
+}
+.frist-input{
+    padding-top: 15px;
+}
+.frist-input h1{
+    color: rgba(248, 152, 35, 0.904);
+    margin-left: 15%;
+    font-size: 24px;
+    margin-bottom: 5px;
+
+}
+.frist-input input{
+    margin-left: 15%;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+   
+    
+}
+
+.scound-input{
+    padding-top: 15px;
+}
+.scound-input h1{
+    color:  rgba(248, 152, 35, 0.904);
+    margin-left: 15%;
+    font-size: 24px;
+    margin-bottom: 5px;
+
+}
+.scound-input input{
+    margin-left: 15%;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+   
+    
+}
+.third-input{
+    padding-top: 15px;
+}
+.third-input h1{
+    color:  rgba(248, 152, 35, 0.904);
+    margin-left: 15%;
+    font-size: 24px;
+    margin-bottom: 5px;
+
+}
+.third-input input{
+    margin-left: 15%;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+   
+    
+}
+
+.frist-btn{
+    width: 50%;
+    margin-left: 20%;
+    padding: 15px;
+    font-size: 22px;
+    margin-top: 25px;
+    border: none;
+    
+    border-radius: 50px;
+    background-color: darkorange;
+    color: white;
+}
+.frist-btn:hover{
+    /* padding: 20px; */
+    background-color: rgba(248, 152, 35, 0.904) ;
+    color: black;
+
+}
+
+
+.received-book{
+    padding-top: 100px;
+    margin-left: 15%;
+    margin-bottom: 35px;
+}
+
+.book-table table{
+   
+   width: 80%;
+}
+.book-table tr{
+    height: 35px;
+    
+}
+.book-table th{
+    font-size: 22px;
+    background-color: darkorange;
+    border-radius: 50px;
+    color: white;
+}
+.book-table td{
+    text-align: center;
+    border-bottom: 2px solid rgb(110, 100, 100);
+    border-radius: 50px;
+    font-size: 18px;
+    padding-top: 5px;
+}
